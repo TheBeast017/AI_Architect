@@ -7,7 +7,7 @@ optimisation → Pareto set → traceable report.
 pip install -e ".[api,dev]"
 make test
 python -m engagent run "25 kg payload, 300 mm from the wall, aluminium, max deflection 1 mm" --out runs/demo --allow-defaults
-uvicorn engagent.api.main:app --reload      # http://127.0.0.1:8000/docs
+uvicorn engagent.api.main:app --reload 
 ```
 Outputs in `runs/demo/`: `report.md`, `records.jsonl/csv`, `spec.json`, `cad/*.stl`. Example: `docs/example_report.md`.
 
