@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engagent"
+version = "0.1.0"
+description = "AI Engineering Agent: requirements -> candidate designs -> simulation -> optimization -> report"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pydantic>=2.5"]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
+llm = ["google-genai>=1.0"]
+tracking = ["mlflow>=2.12"]
+ml = ["scikit-learn>=1.4", "torch>=2.2"]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+engagent = "engagent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

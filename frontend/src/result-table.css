@@ -1,0 +1,6 @@
+.result-table-wrap { overflow-x: auto; margin: 18px 0; }
+.result-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+.result-table caption { text-align: left; font-size: 13px; font-weight: 700; margin: 0 0 7px; }
+.result-table th, .result-table td { border-top: 1px solid #eef1f0; padding: 8px 6px; text-align: left; }
+.result-table th { color: var(--muted); font-weight: 600; }
+.result-table td { font-weight: 700; }

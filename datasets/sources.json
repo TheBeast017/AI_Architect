@@ -1,0 +1,18 @@
+{
+  "_note": "Links copied from the concept doc (section 17). Check license, size and format on each page BEFORE downloading.",
+  "sources": [
+    {"id": "decode_catalogue", "name": "MIT DeCoDE engineering-design dataset catalogue", "url": "https://decode.mit.edu/datasets/",
+     "kind": "catalogue", "stage": 0, "notes": "Start here to pick a subset."},
+    {"id": "decode_benchmarks", "name": "MIT DeCoDE engineering datasets and benchmarks", "url": "https://decode.mit.edu/projects/eng-datasets/",
+     "kind": "catalogue", "stage": 3, "notes": "FRAMED, BIKED, OpenTO, TopoDiff... some with structural metrics."},
+    {"id": "abc", "name": "ABC Dataset (~1M CAD models)", "url": "https://deep-geometry.github.io/abc-dataset/",
+     "kind": "landing_page", "stage": 1, "notes": "Geometry only - NOT an FEA dataset. Download a small chunk."},
+    {"id": "abc_paper", "name": "ABC Dataset CVPR paper", "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Koch_ABC_A_Big_CAD_Model_Dataset_for_Geometric_Deep_Learning_CVPR_2019_paper.html",
+     "kind": "paper", "stage": 1, "notes": "Cite in README/licenses."},
+    {"id": "zenodo_topopt_v2", "name": "Topology Optimization Dataset v2 (Zenodo 8191138)", "url": "https://zenodo.org/records/8191138",
+     "kind": "zenodo", "zenodo_record": "8191138", "stage": 2, "approx_size": "~17 GB archive",
+     "notes": "2D, 50x140 meshes. Do NOT download the full archive without a plan."},
+    {"id": "dtu_topopt", "name": "DTU TopOpt data and results", "url": "https://www.topopt.mek.dtu.dk/da/data-og-results",
+     "kind": "landing_page", "stage": 2, "notes": "Research examples / benchmarks."}
+  ]
+}
